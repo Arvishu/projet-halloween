@@ -1,27 +1,70 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Route, BrowserRouter, NavLink} from 'react-router-dom';
 import './App.css';
+
+import FirstPage from './components/FirstPage.js';
+import SecondPage from './components/SecondPage.js';
+import ThirdPage from './components/ThirdPage';
+import FourthPage from './components/FourthPage';
+import Welcome from './components/Welcome';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+      
+       
+<BrowserRouter>
+        <div>
+          <ul>
+            <li>
+              <NavLink to="/Welcome" exact activeStyle={
+                {color:'red'}
+                }>Welcome</NavLink>
+        </li>
+
+          <li>
+            <NavLink to="/FirstPage" exact activeStyle={
+              {color:'red'}
+              }>page1</NavLink>
+        </li>
+
+        <li>
+          <NavLink to="/SecondPage" exact activeStyle={
+            {color:'red'}
+          }>page2</NavLink>
+        </li>
+
+        <li>
+          <NavLink to="/ThirdPage" exact activeStyle={
+            {color:'red'}
+          }>page3</NavLink>
+        </li>
+
+        <li>
+          <NavLink to="/FourthPage" exact activeStyle={
+            {color:'red'}
+          }>page4</NavLink>
+        </li>
+      </ul >
+
+     
+      <Route exact path="/Welcome"strict component={Welcome}/> 
+
+      <Route exact path="/FirstPage"strict component={FirstPage}/>
+
+      <Route exact path="/SecondPage"strict component={SecondPage}/>
+
+      <Route exact path="/ThirdPage"strict component={ThirdPage}/>
+
+      <Route exact path="/FourthPage"strict component={FourthPage}/>
+
+    </div >
+
+</BrowserRouter>
+
+
+      
+    )
   }
 }
 
