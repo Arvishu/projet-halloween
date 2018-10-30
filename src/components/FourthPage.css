@@ -1,0 +1,154 @@
+
+  .background-fourthPage{
+    background-image: url('https://www.fg-a.com/halloween-bgs/graveyard-dark.jpg');
+  }
+  
+  #gapp {
+    background: rgba(4, 4, 36, 0.596);;
+    padding: 25px;
+    width: 40%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 4mm ridge rgba(169, 50, 220, 0.158);
+    border-radius: 30% 30% 0% 0%;
+   
+  }
+  #gapp .playground {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+    margin-top: 50px;
+    margin-bottom: none;
+  }
+  #gapp .playground .card {
+    width: 15%;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    height: 110px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: relative;
+  }
+  #gapp .playground .card div {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.6s;
+    background:rgb(50, 53, 97);
+  }
+  #gapp .playground .card .front {
+    font-size: 50px;
+    line-height: 120px;
+    cursor: pointer;
+    color: #b9bfcc;
+    background-image: url('https://www.adhesivosnatos.com/wp-content/uploads/2016/09/jack-sally-boogieman-decorativo-570x600.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #gapp .playground .card .back {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    line-height: 110px;
+  }
+  #gapp .playground .card .back img {
+    vertical-align: middle;
+    width: 70%;
+  }
+  #gapp .playground .card.opened {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  #gapp .playground .card.matched {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  #gapp .playground .card.matched .back {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) inset;
+    -webkit-animation: selected .8s 0s ease 1;
+            animation: selected .8s 0s ease 1;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    opacity: .2;
+  }
+  .ghost{
+    width: 180px;
+    position:absolute;
+    transform: rotate(45deg);
+    top:600px;
+    left: 100px;
+  }
+  .ghost1{
+    width: 140px;
+    position:absolute;
+    transform: rotate(120deg);
+    top:150px;
+    left: 100px;
+  }
+  .ghost2{
+    width: 200px;
+    position:absolute;
+    transform: rotate(-45deg);
+    top:450px;
+    right: 100px;
+    
+  }
+
+  .flambeau{
+    position:absolute;
+    top:250px;
+    
+  }
+  
+  @-webkit-keyframes selected {
+    0% {
+      opacity: .2;
+    }
+    30% {
+      opacity: .5;
+    }
+    50% {
+      opacity: .9;
+    }
+    70% {
+      opacity: .2;
+    }
+    100% {
+      opacity: .3;
+    }
+  }
+  
+  @keyframes selected {
+    0% {
+      opacity: .2;
+    }
+    30% {
+      opacity: .5;
+    }
+    50% {
+      opacity: .9;
+    }
+    70% {
+      opacity: .2;
+    }
+    100% {
+      opacity: .3;
+    }
+  }
+  
