@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from './Card.js';
+
 import './FourthPage.css';
 import Playground from './Playground.js';
 

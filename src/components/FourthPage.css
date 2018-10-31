@@ -4,10 +4,12 @@
   }
   
   #gapp {
-    background: rgba(4, 4, 36, 0.596);;
-    padding: 25px;
-    width: 40%;
-    margin: 10px auto;
+    top:50 px;
+    background: rgba(4, 4, 36, 0.596);
+    padding: 5px;
+    width: 600px;
+    height:715px;
+    margin: auto;
     border-radius: 10px;
     border: 4mm ridge rgba(169, 50, 220, 0.158);
     border-radius: 30% 30% 0% 0%;
