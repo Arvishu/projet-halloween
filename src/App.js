@@ -17,21 +17,15 @@ class App extends Component {
         <div>
           <ul>
             <li>
-              <NavLink to="/Welcome" exact activeStyle={
-                {color:'red'}
-                }>Welcome</NavLink>
+              <NavLink to="/Welcome" exact>Welcome</NavLink>
         </li>
 
           <li>
-            <NavLink to="/FirstPage" exact activeStyle={
-              {color:'red'}
-              }>page1</NavLink>
+            <NavLink to="/FirstPage" exact >page1</NavLink>
         </li>
 
         <li>
-          <NavLink to="/SecondPage" exact activeStyle={
-            {color:'red'}
-          }>page2</NavLink>
+          <NavLink to="/SecondPage" exact >page2</NavLink>
         </li>
 
         <li>
@@ -41,9 +35,7 @@ class App extends Component {
         </li>
 
         <li>
-          <NavLink to="/FourthPage" exact activeStyle={
-            {color:'red'}
-          }>page4</NavLink>
+          <NavLink to="/FourthPage" exact >Memory Halloween</NavLink>
         </li>
       </ul >
 
