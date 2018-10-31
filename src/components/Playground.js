@@ -6,7 +6,7 @@ export default class Playground extends Component {
     constructor(props) {
         super(props)
         this.state = {
-          frameworks: ['citrouille','boy-zombie','spider','boy-dead','batman','tete-de-mort','barbi-witch','scream','vomito','dracula','mexican-skull','ghost','walking-dead','freddy','trump'],
+          frameworks: ['citrouille','boy-zombie','boy-dead','batman','tete-de-mort','scream','vomito','dracula','mexican-skull','ghost','walking-dead','freddy'],
           duplicatedFrameworks: [],
           randomizedFrameworks: [],
           finalizedFrameworks: [],
