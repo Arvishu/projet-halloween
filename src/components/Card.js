@@ -19,7 +19,7 @@ export default class Card extends Component {
           
         </div>
         <div className="back">
-          <img alt="image" src={"https://raw.githubusercontent.com/Lydia-Dali/png-halloween/master/" + this.props.framework + ".png"}/>
+          <img alt="halloween" src={"https://raw.githubusercontent.com/Lydia-Dali/png-halloween/master/" + this.props.framework + ".png"}/>
         </div>
       </div>
     )
