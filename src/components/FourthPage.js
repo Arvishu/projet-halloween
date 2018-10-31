@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import './FourthPage.css';
 import Playground from './Playground.js';
+import '../App.css';
+
 
 export default class FourthPage extends Component {
 
@@ -10,7 +12,7 @@ export default class FourthPage extends Component {
   render() {
     return (
       <div className="background-fourthPage">
-      <h1>Memory Halloween</h1>
+      <h1 className="title-memory">Memory Halloween</h1>
         <img className="chauve-souris" src="http://www.sorgina.com/img/home/murcielagos3back_b.gif" alt="chauve"/>
         {/* <img className="ghost"
      src="https://media.giphy.com/media/aKQQzhoLRIzok/giphy.gif"
