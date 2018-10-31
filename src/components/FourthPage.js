@@ -11,12 +11,14 @@ export default class FourthPage extends Component {
     return (
       <div className="background-fourthPage">
       <h1>Memory Halloween</h1>
-        <img className="ghost"
+        <img className="chauve-souris" src="http://www.sorgina.com/img/home/murcielagos3back_b.gif" alt="chauve"/>
+        {/* <img className="ghost"
      src="https://media.giphy.com/media/aKQQzhoLRIzok/giphy.gif"
-     alt="ghost"/>
+     alt="ghost"/> */}
       <img className="ghost1"
      src="https://media.giphy.com/media/aKQQzhoLRIzok/giphy.gif"
      alt="ghost"/>
+     
       <img className="ghost2"
      src="https://media.giphy.com/media/aKQQzhoLRIzok/giphy.gif"
      alt="ghost"/>

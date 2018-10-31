@@ -5,16 +5,20 @@ h1{
     text-align: center;
     font-size: 36px;
     margin-bottom: -150px;   
-    color: #79ff1a;
+    color: #61ea3ffa;
     padding-bottom: 8px;
+    
 }
+  .chauve-souris{
+    float: right;
+  }
   
   .background-fourthPage{
     background-image: url('https://www.fg-a.com/halloween-bgs/graveyard-dark.jpg');
     background-size: cover;
     overflow: hidden;
-    min-height: 760px;
-    padding-top: 140px;
+    min-height: 640px;
+    padding-top: 80px;
   }
   
   #gapp {
@@ -63,7 +67,7 @@ h1{
     border-top-right-radius: 33px;
     border-top-left-radius: 33px;
     transition: 0.6s;
-    background:rgb(50, 53, 97);
+    background: #51558a;
   }
   #gapp .playground .card .front {
     font-size: 50px;
@@ -133,9 +137,9 @@ h1{
   .eyes{
     position: absolute;
     height: 25%;
-    bottom:-180px;
+    bottom: 31px;
     box-shadow: 0px 0px 25px 50px #030204;
-    border-radius: 2% 45% 3% 50%;
+    border-radius: 50%;
     
     
   }
