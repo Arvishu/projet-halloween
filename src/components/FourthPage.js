@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './FourthPage.css';
 import Playground from './Playground.js';
+import GlowingTitle from './GlowingTitle.js'
 
 export default class FourthPage extends Component {
 
@@ -28,6 +29,7 @@ export default class FourthPage extends Component {
       <div id="gapp">
       <Playground />
       </div>
+      <div className="glowing"><GlowingTitle /></div>
       </div>  
     )
   }
