@@ -10,6 +10,7 @@ export default class FourthPage extends Component {
   render() {
     return (
       <div className="background-fourthPage">
+      <h1>Memory Halloween</h1>
         <img className="ghost"
      src="https://media.giphy.com/media/aKQQzhoLRIzok/giphy.gif"
      alt="ghost"/>

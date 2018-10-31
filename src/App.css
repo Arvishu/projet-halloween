@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'tangomacabreregular';
+    src: url('./fonts/macabre/tangomacabre.ttf');
+    src: url('./fonts/macabre/tangomacabre.eot');
+    src: url('./fonts/macabre/tangomacabre.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/macabre/tangomacabre.woff2') format('woff2'),
+         url('./fonts/macabre/tangomacabre.woff') format('woff'),
+         url('./fonts/macabre/tangomacabre.svg#tangomacabreregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1{
+    font-family: 'tangomacabreregular';
+}
+
 ul{
     position: absolute;
 }

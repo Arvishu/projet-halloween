@@ -1,9 +1,20 @@
 
+
+h1{
+  font-family: 'tangomacabreregular';
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: -150px;   
+    color: #79ff1a;
+    padding-bottom: 8px;
+}
+  
   .background-fourthPage{
     background-image: url('https://www.fg-a.com/halloween-bgs/graveyard-dark.jpg');
     background-size: cover;
     overflow: hidden;
     min-height: 760px;
+    padding-top: 140px;
   }
   
   #gapp {
